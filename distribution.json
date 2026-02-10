@@ -1,0 +1,331 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "JjeongWar-1.20.4",
+      "name": "쩡의 전쟁",
+      "description": "Minecraft 1.20.4 (Fabric v0.18.4)",
+      "icon": "https://github.com/mchdistro/JjeongWar/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "aassdd889900.kr",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 4096
+        }
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/repo/lib/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.18.4",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "d268e8e5322fd3b7533bb724913fa125",
+                "url": "https://github.com/mchdistro/JjeongWar/raw/main/repo/versions/1.20.4-fabric-0.18.4/1.20.4-fabric-0.18.4.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://github.com/mchdistro/JjeongWar/raw/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://github.com/mchdistro/JjeongWar/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://github.com/mchdistro/JjeongWar/raw/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://github.com/mchdistro/JjeongWar/raw/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://github.com/mchdistro/JjeongWar/raw/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://github.com/mchdistro/JjeongWar/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://github.com/mchdistro/JjeongWar/raw/main/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "kr.shihyeon:blurserveraddress:1.1.0+mc1.20.4@jar",
+          "name": "BlurServerAddress",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10279,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/fabricmods/required/blurserveraddress-1.1.0+mc1.20.4.jar",
+            "MD5": "b8f6099fed2c7b6464120586e67d1f92"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.3+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2187523,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/fabricmods/required/fabric-api-0.97.3+1.20.4.jar",
+            "MD5": "03ed4ae378e68f42ccf05dbe97007793"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2703697,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/fabricmods/required/iris-1.7.2+mc1.20.4.jar",
+            "MD5": "fa3647d1891a719b268c636236d989c2"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.5+mc1.20.4@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 576133,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/fabricmods/required/koreanpatch-fabric-1.9.5+mc1.20.4.jar",
+            "MD5": "668a24acd6a00c118e6751f70b997897"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.6@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12207089,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/fabricmods/required/plasmovoice-fabric-1.20.4-2.1.6.jar",
+            "MD5": "def3fd2152d505476b2af6c72cf8ac45"
+          }
+        },
+        {
+          "id": "com.soradgaming:simplehudenhanced:4.7.5@jar",
+          "name": "Simple Hud Enhanced",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1179868,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/fabricmods/required/simple-hud-enhanced+1.20.2-1.20.4-4.7.5.jar",
+            "MD5": "df9ed290e1ec430ff1e56e90c8ce760b"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949085,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.20.4@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 139421,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/fabricmods/required/WI-Zoom-1.5-MC1.20.4.jar",
+            "MD5": "94ed5306aea5ac57369941c47e0fc0b9"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/config/fabric/indigo-renderer.properties",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 285,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "______.json",
+          "name": "______.json",
+          "type": "File",
+          "artifact": {
+            "size": 171,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/config/minihud/______.json",
+            "path": "config/minihud/______.json"
+          }
+        },
+        {
+          "id": "_______dim_minecraft_overworld.json",
+          "name": "_______dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 103,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/config/minihud/_______dim_minecraft_overworld.json",
+            "path": "config/minihud/_______dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1548,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/config/plasmovoice/client.toml",
+            "path": "config/plasmovoice/client.toml"
+          }
+        },
+        {
+          "id": "meta_cache.json",
+          "name": "meta_cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 655,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/config/plasmovoice/meta_cache.json",
+            "MD5": "a018a2e1ae984186946a3c606d5c3e38",
+            "path": "config/plasmovoice/meta_cache.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4071,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "generated.zip",
+          "name": "generated.zip",
+          "type": "File",
+          "artifact": {
+            "size": 5897329,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/resourcepacks/generated.zip",
+            "MD5": "f2b416143dea2e3cb558ef9a5966d6c6",
+            "path": "resourcepacks/generated.zip"
+          }
+        },
+        {
+          "id": "Visible Ores2.12.zip",
+          "name": "Visible Ores2.12.zip",
+          "type": "File",
+          "artifact": {
+            "size": 906029,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/resourcepacks/Visible%20Ores2.12.zip",
+            "MD5": "63204fe8a5538bc57a0d448104b1c382",
+            "path": "resourcepacks/Visible Ores2.12.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.1.zip",
+          "name": "ComplementaryUnbound_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500699,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
+            "MD5": "3f83f81df2ad4608d830017425b45bac",
+            "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.1.zip.txt",
+          "name": "ComplementaryUnbound_r5.6.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.6.1.zip.txt",
+            "MD5": "9b71d68024e36e62ae1cea72755fa894",
+            "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
