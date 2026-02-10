@@ -276,7 +276,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 4071,
+            "size": 4067,
             "url": "https://github.com/mchdistro/JjeongWar/raw/main/servers/JjeongWar-1.20.4/files/options.txt",
             "path": "options.txt"
           }
