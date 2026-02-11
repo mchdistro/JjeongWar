@@ -38,6 +38,7 @@
       "patterns": [
         "options.txt",
         "config/iris.properties",
+        "config/simplehudenhanced.toml",
         "config/fabric/indigo-renderer.properties",
         "config/minihud/**.json",
         "config/plasmovoice/client.toml"
